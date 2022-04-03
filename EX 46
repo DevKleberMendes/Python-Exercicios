@@ -1,0 +1,5 @@
+# Exercicio 46 Contagem de 0 a 10
+# sempre colocar 1 número a mais
+for cont in range(0, 11):
+    print(cont)
+print('Acabou!')

@@ -1,0 +1,5 @@
+# Exercicio 17 Catetos e Hipotenusa
+co = float(input('Comprimento do cateto oposto: '))
+ca = float(input('Comprimento do cateto adjacente: '))
+hi = (co ** 2 ** 2) ** (1/2)
+print('A hipotenusa vai medir {:.2f}'.format(hi))

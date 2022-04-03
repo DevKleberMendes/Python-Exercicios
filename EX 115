@@ -1,0 +1,15 @@
+# Exercício 115 A Criando menu em python
+from ex115.lib.interface import *
+
+while True:
+    resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', Sair do Sistema'])
+    if presposta == 1:
+        print('Opção 1')
+    elif reposta == 2:
+        print('Opção 2')
+    elif resposta == 3:
+        print('Saindo do sistema... Até logo!')
+        break
+    else:
+        print('Erro! Digite uma opção válida!')
+        

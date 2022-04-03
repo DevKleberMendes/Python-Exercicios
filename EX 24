@@ -1,0 +1,4 @@
+# Exercicio 24 Verificando primeiras letras de um texto
+# strip elimina espaços
+cid = str(input('Em que cidade vc nasceu? ')).strip()
+print(cid[:5]).upper() == 'SANTO')

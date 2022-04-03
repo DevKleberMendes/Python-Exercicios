@@ -1,0 +1,12 @@
+# Exercicio 21 Tocando um MP3         
+#import pygame ou extensão
+#salvar música na mesma pasta 
+import pygame
+pygame.init()
+pygame.mixer.music.load('musicaexercicio21')
+pygame.mixer.music.play()
+pygame.event.wait()
+
+
+
+
